@@ -34,7 +34,7 @@ int scoreTeamA=0;
     {
 
         scoreTeamA=scoreTeamA+1;
-        displayForTeamA(scoreTeamA);
+        displayForTeamA(scoreTeamA );
     }
     public void displayForTeamA(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
